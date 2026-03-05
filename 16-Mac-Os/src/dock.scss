@@ -1,0 +1,84 @@
+.dock {
+    display: flex;
+    gap: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(66, 65, 65, 0.418);
+    padding-inline: 1rem;
+    padding-block: 0.3rem;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(10px);
+
+    .icon {
+        padding: 0.4rem;
+        display: flex;
+        border-radius: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        aspect-ratio: 1/1;
+        width: 2.8rem;
+        transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+        img {
+            width: 28px;
+            height: 28px;
+            object-fit: contain;
+        }
+    }
+
+    .icon:hover {
+        transform: scale(1.25) translateY(-20%);
+        z-index: 1;
+    }
+
+    // Jisvi icon par hover ho raha hai wo and uska bad wala icon
+    .icon:hover + .icon,
+    .icon:has(+ .icon:hover) {
+        transform: scale(1.1) translateY(-10%);
+    }
+
+    .github,
+    .cli {
+        background: #000;
+    }
+    .note {
+        background: linear-gradient(
+            to bottom,
+            rgb(237, 156, 5),
+            rgb(238, 202, 135)
+        );
+    }
+    .pdf {
+        background: linear-gradient(
+            to bottom,
+            rgb(241, 9, 102),
+            rgb(236, 109, 160)
+        );
+    }
+    .calender,
+    .mail {
+        background: linear-gradient(
+            to bottom,
+            rgb(35, 17, 230),
+            rgb(121, 112, 223)
+        );
+    }
+    .spotify {
+        background: linear-gradient(
+            to bottom,
+            rgb(16, 149, 54),
+            rgb(108, 211, 137)
+        );
+    }
+    .link {
+        background: linear-gradient(
+            to bottom,
+            rgb(163, 97, 170),
+            rgb(139, 41, 150)
+        );
+    }
+}
