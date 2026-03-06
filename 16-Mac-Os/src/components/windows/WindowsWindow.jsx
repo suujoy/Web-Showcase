@@ -4,7 +4,10 @@ import "./window.scss";
 
 const WindowsWindow = ({ children }) => {
     return (
-        <Rnd dragHandleClassName="nav">
+        <Rnd
+            default={{ width: "35vw", height: "60vh", x: 200, y: 70 }}
+            dragHandleClassName="nav"
+        >
             <div className="window">
                 <nav className="nav">
                     <div className="title">

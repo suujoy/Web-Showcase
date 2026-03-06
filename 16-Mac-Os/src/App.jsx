@@ -4,6 +4,8 @@ import Doc from "./Doc";
 import Nav from "./components/Nav";
 import WindowsWindow from "./components/windows/WindowsWindow";
 import Github from "./components/windows/Github";
+import Note from "./components/windows/Note";
+import Resume from "./components/windows/Resume";
 
 const App = () => {
     return (
@@ -12,6 +14,8 @@ const App = () => {
             <Doc />
 
             <Github />
+            <Note />
+            <Resume/>
         </main>
     );
 };

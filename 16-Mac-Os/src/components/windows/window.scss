@@ -1,9 +1,18 @@
 .window {
-    height: 600px;
-    width: 800px;
+    height: 100%;
     background: black;
     border-radius: 0.5rem;
     overflow: hidden;
+    
+    *::-webkit-scrollbar{
+    width: 8px;
+    }
+
+    *::-webkit-scrollbar-thumb{
+        background: #6c6b6b99;
+        border-radius: 0.5rem;
+    }
+    
     
     .nav {
         border-bottom: 1px solid rgba(245, 245, 245, 0.17);
