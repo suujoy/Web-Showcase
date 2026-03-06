@@ -3,6 +3,7 @@ import "./app.scss";
 import Doc from "./Doc";
 import Nav from "./components/Nav";
 import WindowsWindow from "./components/windows/WindowsWindow";
+import Github from "./components/windows/Github";
 
 const App = () => {
     return (
@@ -10,9 +11,7 @@ const App = () => {
             <Nav />
             <Doc />
 
-            <WindowsWindow >
-                <h1>Hello</h1>
-            </WindowsWindow>
+            <Github />
         </main>
     );
 };

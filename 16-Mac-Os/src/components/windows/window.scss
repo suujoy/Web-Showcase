@@ -1,6 +1,6 @@
 .window {
-    height: 400px;
-    width: 600px;
+    height: 600px;
+    width: 800px;
     background: black;
     border-radius: 0.5rem;
     overflow: hidden;
@@ -30,5 +30,6 @@
 
     .main-content{
         color: white;
+        height: 95%;
     }
 }

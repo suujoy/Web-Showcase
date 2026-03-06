@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4",
+    "title": "React Todo App",
+    "description": "Simple todo application built with React.",
+    "tags": ["React", "JavaScript", "CSS"],
+    "repoLink": "https://github.com/facebook/react",
+    "demoLink": "https://react.dev"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1556155092-490a1ba16284",
+    "title": "Node API Server",
+    "description": "Backend API server built with Node and Express.",
+    "tags": ["Node", "Express", "API"],
+    "repoLink": "https://github.com/expressjs/express",
+    "demoLink": "https://expressjs.com"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
+    "title": "Redux Toolkit Example",
+    "description": "Example project demonstrating Redux Toolkit usage.",
+    "tags": ["React", "Redux", "State Management"],
+    "repoLink": "https://github.com/reduxjs/redux-toolkit",
+    "demoLink": "https://redux-toolkit.js.org"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "title": "Next.js Web App",
+    "description": "Full stack React framework example project.",
+    "tags": ["NextJS", "React", "SSR"],
+    "repoLink": "https://github.com/vercel/next.js",
+    "demoLink": "https://nextjs.org"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b",
+    "title": "Weather Dashboard",
+    "description": "Weather dashboard using public weather APIs.",
+    "tags": ["JavaScript", "API", "Frontend"],
+    "repoLink": "https://github.com/public-apis/public-apis",
+    "demoLink": "https://github.com/public-apis/public-apis"
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    "title": "Socket Chat Application",
+    "description": "Realtime chat app using Socket.io.",
+    "tags": ["Socket.io", "Node", "Realtime"],
+    "repoLink": "https://github.com/socketio/socket.io",
+    "demoLink": "https://socket.io"
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1607082349566-187342175e2f",
+    "title": "Tailwind UI Project",
+    "description": "Frontend UI project built using Tailwind CSS.",
+    "tags": ["Tailwind", "CSS", "Frontend"],
+    "repoLink": "https://github.com/tailwindlabs/tailwindcss",
+    "demoLink": "https://tailwindcss.com"
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    "title": "VS Code Clone UI",
+    "description": "Editor interface inspired by VS Code.",
+    "tags": ["React", "UI", "Frontend"],
+    "repoLink": "https://github.com/microsoft/vscode",
+    "demoLink": "https://code.visualstudio.com"
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+    "title": "MongoDB Node Starter",
+    "description": "Starter template for Node and MongoDB apps.",
+    "tags": ["Node", "MongoDB", "Backend"],
+    "repoLink": "https://github.com/mongodb/node-mongodb-native",
+    "demoLink": "https://www.mongodb.com"
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba",
+    "title": "JavaScript Algorithms",
+    "description": "Collection of JavaScript algorithms and data structures.",
+    "tags": ["JavaScript", "DSA", "Algorithms"],
+    "repoLink": "https://github.com/trekhleb/javascript-algorithms",
+    "demoLink": "https://github.com/trekhleb/javascript-algorithms"
+  }
+]
